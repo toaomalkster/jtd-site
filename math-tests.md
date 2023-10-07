@@ -6,8 +6,7 @@ layout: home
 foo
 
 Here's some math:
-```
-{ % katex % }
+
+{% katex %}
 c = \pm\sqrt{a^2 + b^2}
-{ % endkatex % }
-```
+{% endkatex %}
