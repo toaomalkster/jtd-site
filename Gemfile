@@ -6,5 +6,4 @@ gem "jekyll", "~> 4.3.2" # installed by `gem jekyll`
 gem "just-the-docs", "0.6.2" # pinned to the current release
 # gem "just-the-docs"        # always download the latest release
 
-gem "therubyrhino"
 gem "jekyll-katex"
