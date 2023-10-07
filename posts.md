@@ -1,0 +1,16 @@
+---
+title: Posts
+layout: default
+author: foo
+---
+
+hello
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
